@@ -1,0 +1,14 @@
+C:\Users\Ignis\source\repos\FullCoreApi\FullCoreApi\bin\Debug\netcoreapp2.2\FullCoreApi.deps.json
+C:\Users\Ignis\source\repos\FullCoreApi\FullCoreApi\bin\Debug\netcoreapp2.2\FullCoreApi.runtimeconfig.json
+C:\Users\Ignis\source\repos\FullCoreApi\FullCoreApi\bin\Debug\netcoreapp2.2\FullCoreApi.runtimeconfig.dev.json
+C:\Users\Ignis\source\repos\FullCoreApi\FullCoreApi\bin\Debug\netcoreapp2.2\FullCoreApi.dll
+C:\Users\Ignis\source\repos\FullCoreApi\FullCoreApi\bin\Debug\netcoreapp2.2\FullCoreApi.pdb
+C:\Users\Ignis\source\repos\FullCoreApi\FullCoreApi\obj\Debug\netcoreapp2.2\FullCoreApi.csprojAssemblyReference.cache
+C:\Users\Ignis\source\repos\FullCoreApi\FullCoreApi\obj\Debug\netcoreapp2.2\FullCoreApi.csproj.CoreCompileInputs.cache
+C:\Users\Ignis\source\repos\FullCoreApi\FullCoreApi\obj\Debug\netcoreapp2.2\FullCoreApi.RazorAssemblyInfo.cache
+C:\Users\Ignis\source\repos\FullCoreApi\FullCoreApi\obj\Debug\netcoreapp2.2\FullCoreApi.RazorAssemblyInfo.cs
+C:\Users\Ignis\source\repos\FullCoreApi\FullCoreApi\obj\Debug\netcoreapp2.2\FullCoreApi.AssemblyInfoInputs.cache
+C:\Users\Ignis\source\repos\FullCoreApi\FullCoreApi\obj\Debug\netcoreapp2.2\FullCoreApi.AssemblyInfo.cs
+C:\Users\Ignis\source\repos\FullCoreApi\FullCoreApi\obj\Debug\netcoreapp2.2\FullCoreApi.RazorTargetAssemblyInfo.cache
+C:\Users\Ignis\source\repos\FullCoreApi\FullCoreApi\obj\Debug\netcoreapp2.2\FullCoreApi.dll
+C:\Users\Ignis\source\repos\FullCoreApi\FullCoreApi\obj\Debug\netcoreapp2.2\FullCoreApi.pdb
