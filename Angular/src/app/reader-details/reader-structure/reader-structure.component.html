@@ -1,0 +1,16 @@
+<form #form="ngForm" autocomplete="off">
+  <div class="form-group">
+    <div class="input-group">
+      <div class="input-group-text bg-white">
+        <i class="far fa-address-card"></i>
+      </div>
+      <input
+        class="form-control"
+        name="Name"
+        #Name="ngModel"
+        [(ngModel)]="service.formData.Name"
+        placeholder="User properties"
+      />
+    </div>
+  </div>
+</form>
