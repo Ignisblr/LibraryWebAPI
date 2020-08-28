@@ -2,6 +2,7 @@ import { ReaderService } from './service/reader.service';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppComponent } from './app.component';
 import { ReaderDetailsComponent } from './reader-details/reader-details.component';
@@ -15,7 +16,7 @@ import { ReaderViewsComponent } from './reader-details/reader-views/reader-views
     ReaderStructureComponent,
     ReaderViewsComponent,
   ],
-  imports: [BrowserModule, FormsModule],
+  imports: [BrowserModule, FormsModule, HttpClientModule],
   providers: [ReaderService],
   bootstrap: [AppComponent],
 })

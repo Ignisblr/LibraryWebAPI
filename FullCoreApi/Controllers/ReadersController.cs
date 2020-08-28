@@ -27,5 +27,14 @@ namespace FullCoreApi.Controllers
         {
             return readerContext_.Readers;
         }
+
+        [HttpPost]
+        public ActionResult<Reader> AddReader(Reader reader)
+        {
+            readerContext_.Readers.Add(reader);
+            readerContext_.SaveChanges();
+
+            return CreatedAtAction("GetReaderById", new { id = reader.Id }, reader);
+        }
     }
 }

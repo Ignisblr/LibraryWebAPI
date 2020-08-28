@@ -27,6 +27,7 @@ namespace FullCoreApi
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+            services.AddCors();
             services.AddDbContext<ReaderContext>(options => 
             options.UseSqlServer(Configuration.GetConnectionString("CustomConnection")));
         }
@@ -38,6 +39,10 @@ namespace FullCoreApi
             {
                 app.UseDeveloperExceptionPage();
             }
+
+            app.UseCors(optinons => optinons.WithOrigins("http://localhost:4200").
+            AllowAnyMethod().
+            AllowAnyHeader());
 
             app.UseMvc();
         }
